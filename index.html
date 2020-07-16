@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ремонт айфонов</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+  <a href="#" class="navbar-brand d-flex align-items-center">
+    <strong>AppleOne</strong>
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRes">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarRes">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Главное</a>
+        </li>
+        <li class="nav-item">
+          <a href="onas.html" class="nav-link">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a href="otziv.html" class="nav-link">Отзывы</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link active">+7(929)949 7413</a>
+        </li>
+        </ul>
+    </div>
+  </div>
+
+</nav>
+
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="img/pac.jpg">
+    <div class="carousel-caption">
+      <h1 class="display-3">ремонт apple</h1>
+      <h5>Выезд мастера по Москве и МО</h5>
+      <h4>БЕСПЛАТНО</h4>
+      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Вызвать мастера</button>
+    </div>
+  </div>
+</div>
+<!-- Forma -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Оформить заявку</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="ajax/mail.php" method="post">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ведите ваша имя:</label>
+            <input type="text" name="name" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ведите ваш номер телефона</label>
+            <input type="text" name="phone" class="form-control" id="phone">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Опишите проблему и модель (Необязательно)</label>
+            <textarea class="form-control" name="message-text" id="message-text"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+            <button type="submit" class="btn btn-primary">Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row jumbotron">
+    <!--  <h3 class="display-4">AppleOne<p class="lead">подарите вторую жизнь любимому Айфону!</p></h3> -->
+      <p class="lead text-center">Мы идем навстречу клиентам, обеспечивая оптимальные условия обслуживания.
+        При необходимости вы можете вызвать специалиста для ремонта iPhone на дому, оформив заявку на сайте или по телефону.
+         Мастер приедет быстро и тогда, когда удобно заказчику.
+         Дома или в офисе клиента неисправность будет устранена за короткое время.
+          Цены на услуги абсолютно разумные и не заоблачные, гарантия – до полугода. Работаем без перерывов и выходных.</p>
+</div>
+<div class="container-fluid">
+    <h3 class="display-5 text-center">Наши преимушества</h3>
+  </div>
+</div>
+<div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fas fa-search" ></i>
+      <h3>0 руб</h3>
+      <p>Бесплатная диагностика устройства</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+      <h3>Гарантия</h3>
+      <p>Новые качественные запчасти</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fa fa-check-circle" aria-hidden="true"></i>
+      <h3>До 10%</h3>
+      <p>Скидки на комплексный ремонт</p>
+    </div>
+    <hr class="my-4">
+
+
+  </div>
+</div>
+<footer class="container-fluid padding">
+  <div class="container-fluid">
+  <div class="row padding text-center">
+    <div class="col-12">
+      <h2>Наши контакты</h2>
+      </div>
+      <div class="col-12 social padding">
+      <a href="https://vk.com/mr.moon_shadow"><i class="fab fa-vk"></i></a>
+      <a href="https://www.instagram.com/dark_night0577"><i class="fab fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=79299497413"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</div>
+  </footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
